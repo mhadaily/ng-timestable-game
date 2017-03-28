@@ -8,9 +8,9 @@ describe('BottomSeaComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BottomSeaComponent ]
-    })
-    .compileComponents();
+        declarations: [BottomSeaComponent],
+      })
+      .compileComponents();
   }));
 
   beforeEach(() => {
