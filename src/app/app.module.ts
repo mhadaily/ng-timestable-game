@@ -7,11 +7,13 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopFishesComponent } from './objects/top-fishes/top-fishes.component';
+import { BottomSeaComponent } from './objects/bottom-sea/bottom-sea.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopFishesComponent
+    TopFishesComponent,
+    BottomSeaComponent
   ],
   imports: [
     BrowserModule,
