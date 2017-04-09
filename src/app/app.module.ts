@@ -8,12 +8,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopFishesComponent } from './objects/top-fishes/top-fishes.component';
 import { BottomSeaComponent } from './objects/bottom-sea/bottom-sea.component';
+import { MainViewComponent } from './objects/main-view/main-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopFishesComponent,
     BottomSeaComponent,
+    MainViewComponent,
   ],
   imports: [
     BrowserModule,
